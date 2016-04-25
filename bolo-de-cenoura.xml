@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE receita SYSTEM "../receita.dtd">
+<receita>
+	<titulo>Bolo de cenoura com cobertura de chocolate</titulo>
+	<metadados>
+		<fonte>http://gnt.globo.com/receitas/receitas/bolo-de-cenoura-com-cobertura-de-chocolate.htm</fonte>
+		<tipo>Bolo</tipo>
+		<comentario>Rita Lobo ensina a fazer o bolo de cenoura clássico, aquele que tem a cobertura crocante de chocolate, feita com açúcar. Para manter o bolo sempre fresquinho, a apresentadora ainda mostra uma maneira muito inteligente de cortar as fatias, evitando que a massa resseque.</comentario>
+	</metadados>
+	<grupo>
+		<descricao>Cobertura</descricao>
+		<ingredientes>
+			<ingrediente>
+				<medida>
+					<quantidade>
+						<valor>1/2</valor>
+						<unidade>xícara (chá)</unidade>
+					</quantidade>
+				</medida>
+				<item>chocolate em pó</item>
+			</ingrediente>			
+			<ingrediente>
+				<medida>
+					<quantidade>
+						<valor>1/3</valor>
+						<unidade>xícara (chá)</unidade>
+					</quantidade>
+				</medida>
+				<item>açúcar</item>
+			</ingrediente>			
+			<ingrediente>
+				<medida>
+					<quantidade>
+						<valor>1</valor>
+						<unidade>colher</unidade>
+					</quantidade>
+				</medida>
+				<item>manteira</item>
+			</ingrediente>			
+			<ingrediente>
+				<medida>
+					<quantidade>
+						<valor>1/3</valor>
+						<unidade>xícara (chá)</unidade>
+					</quantidade>
+				</medida>
+				<item>água</item>
+			</ingrediente>
+		</ingredientes>
+		<passos>
+			<passo>Numa panela pequena, junte o chocolate, o açúcar, a manteiga e a água.</passo>
+			<passo>Leve ao fogo médio mexendo sempre com um batedor de arame.</passo>
+			<passo>Quando começar a ferver, cozinhe por cerca de quatro minutos, sem parar de mexer.</passo>
+			<passo>Assim que a calda começar a desgrudar do fundo da panela é sinal de que está pronta.</passo>
+			<passo>Regue a calda quente sobre o bolo já frio e desenformado e deixe esfriar.</passo>
+			<passo>Sirva a seguir.</passo>
+			<passo>Serve 20 porções</passo>
+		</passos>
+	</grupo>
+	
+	<grupo>
+		<descricao>Bolo</descricao>
+		<ingredientes>		
+			<ingrediente>
+				<medida>
+					<quantidade>
+						<valor>3</valor>
+						<unidade>únidade</unidade>
+					</quantidade>
+				</medida>
+				<item>cenoura</item>
+			</ingrediente>
+			
+			<ingrediente>
+				<medida>
+					<quantidade>
+						<valor>4</valor>
+						<unidade>únidade</unidade>
+					</quantidade>
+				</medida>
+				<item>ovo</item>
+			</ingrediente>
+			
+			<ingrediente>
+				<medida>
+					<quantidade>
+						<valor>1</valor>
+						<unidade>xicara (chá)</unidade>
+					</quantidade>
+				</medida>
+				<item>óleo de canola, milho ou girassol</item>
+			</ingrediente>
+			
+			<ingrediente>
+				<medida>
+					<quantidade>
+						<valor>1 1/2 </valor>
+						<unidade>xícara (chá)</unidade>
+					</quantidade>
+				</medida>
+				<item>açúcar</item>
+			</ingrediente>
+			
+			<ingrediente>
+				<medida>
+					<quantidade>
+						<valor>2</valor>
+						<unidade>xícara (chá)</unidade>
+					</quantidade>
+				</medida>
+				<item>farinha de trigo</item>
+			</ingrediente>
+			
+			<ingrediente>
+				<medida>
+					<quantidade>
+						<valor>1</valor>
+						<unidade>colher (sopa)</unidade>
+					</quantidade>
+				</medida>
+				<item>fermento</item>
+			</ingrediente>
+			
+			<ingrediente>
+				<medida>
+					<quantidade>
+						<valor>1</valor>
+						<unidade>pitada</unidade>
+					</quantidade>
+				</medida>
+				<item>sal</item>
+			</ingrediente>
+			
+			<ingrediente>
+				<medida>
+					<quantidade>
+						<valor>1</valor>
+						<unidade>colher (chá)</unidade>
+					</quantidade>
+				</medida>
+				<item>manteiga</item>
+			</ingrediente>
+		</ingredientes>
+		<passos>
+			<passo>Numa panela pequena, junte o chocolate, o açúcar, a manteiga e a água.</passo>
+			<passo>Polvilhe farinha de trigo e chacoalhe sobre a pia para tirar o excesso.</passo>
+			<passo>Coloque a farinha, o sal e o fermento em uma tigela, passando pela peneira.</passo>
+			<passo>Misture delicadamente e reserve.</passo>
+			<passo>Lave as cenouras e, com um descascador de legumes ou faquinha, descasque.</passo>
+			<passo>Descarte a extremidade superior (onde fica a rama) e corte as cenouras em rodelas.</passo>
+			<passo>Quebre os ovos, um a um, em uma tigela (para verificar se estão bons) e transfira para o copo do liquidificador.</passo>
+			<passo>Junte as cenouras, o óleo e o açúcar e bata até formar uma mistura homogênea (cerca de cinco minutos).</passo>
+			<passo>Junte a mistura do liquidificador à tigela com a farinha, o fermento e o sal.</passo>
+			<passo>Com um batedor de arame, misture delicadamente até ficar liso e homogêneo.</passo>
+			<passo>Transfira a massa para a assadeira e leve ao forno preaquecido por cerca de 50 minutos.</passo>
+			<passo>Para saber se o bolo está bom, espete um palito na massa: se sair limpo é sinal de que o bolo está assado e pode ser retirado do forno. Caso contrário, deixe por mais alguns minutos até que asse completamente.</passo>
+			<passo>Deixe esfriar por <tempo>15 minutos</tempo> antes de desenformar.</passo>
+		</passos>
+	</grupo>
+</receita>
