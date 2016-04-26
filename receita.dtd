@@ -1,0 +1,17 @@
+<!ELEMENT receita (titulo, metadados, grupo)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT metadados (fonte, tipo, comentario)>
+<!ELEMENT fonte (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT comentario (#PCDATA)>
+<!ELEMENT grupo (descricao, ingredientes, passos)>
+<!ELEMENT descricao (#PCDATA)>
+<!ELEMENT ingredientes (ingrediente)>
+<!ELEMENT ingrediente (medida, item)>
+<!ELEMENT medida (quantidade)>
+<!ELEMENT quantidade (valor, unidade)>
+<!ELEMENT valor (#PCDATA)>
+<!ELEMENT unidade (#PCDATA)>
+<!ELEMENT item (#PCDATA)>
+<!ELEMENT passos (passo)>
+<!ELEMENT passo (#PCDATA)>

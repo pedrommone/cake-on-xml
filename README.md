@@ -6,7 +6,7 @@ This a project for my college, we need to create a valid XML for a cake receipt.
 
 - Pedro Maia
 - Marcio Mansur
-- Marcus Vinicius
+- Marcus Campos
 - Marcus Lana
 
 # The cake

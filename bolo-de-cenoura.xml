@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE receita SYSTEM "../receita.dtd">
+<!DOCTYPE receita SYSTEM "receita.dtd">
 <receita>
 	<titulo>Bolo de cenoura com cobertura de chocolate</titulo>
 	<metadados>
@@ -153,7 +153,7 @@
 			<passo>Com um batedor de arame, misture delicadamente até ficar liso e homogêneo.</passo>
 			<passo>Transfira a massa para a assadeira e leve ao forno preaquecido por cerca de 50 minutos.</passo>
 			<passo>Para saber se o bolo está bom, espete um palito na massa: se sair limpo é sinal de que o bolo está assado e pode ser retirado do forno. Caso contrário, deixe por mais alguns minutos até que asse completamente.</passo>
-			<passo>Deixe esfriar por <tempo>15 minutos</tempo> antes de desenformar.</passo>
+			<passo>Deixe esfriar por 15 minutos antes de desenformar.</passo>
 		</passos>
 	</grupo>
 </receita>
