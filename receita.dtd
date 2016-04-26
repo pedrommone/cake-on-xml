@@ -1,8 +1,9 @@
 <!ELEMENT receita (titulo, metadados, grupo)>
 <!ELEMENT titulo (#PCDATA)>
-<!ELEMENT metadados (fonte, tipo, comentario)>
+<!ELEMENT metadados (fonte, tipo, foto, comentario)>
 <!ELEMENT fonte (#PCDATA)>
 <!ELEMENT tipo (#PCDATA)>
+<!ELEMENT foto (#PCDATA)>
 <!ELEMENT comentario (#PCDATA)>
 <!ELEMENT grupo (descricao, ingredientes, passos)>
 <!ELEMENT descricao (#PCDATA)>
