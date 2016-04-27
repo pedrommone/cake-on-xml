@@ -7,6 +7,8 @@
     <h1 id="titulo"></h1>
     Fonte: <a id="link"></a>
     <br><br>
+    <span id="comentario"></span>
+    <br><br>
     <img src="" style="width: 300px;height: 250px">
     <div id="grupos">
 
@@ -38,12 +40,14 @@
         var metadata = receipt.getElementsByTagName("metadados")[0];
         var source = metadata.getElementsByTagName("fonte")[0].childNodes[0].nodeValue;
         var picture = metadata.getElementsByTagName("foto")[0].childNodes[0].nodeValue;
+        var comment = metadata.getElementsByTagName("comentario")[0].childNodes[0].nodeValue;
 
         // group data
         var groups = receipt.getElementsByTagName("grupo");
 
         document.getElementById('titulo').innerHTML = title;
         document.getElementById('link').innerHTML = source;
+        document.getElementById('comentario').innerHTML = comment;
         document.getElementsByTagName("img")[0].setAttribute("src", picture);
 
         // fill groups data
@@ -53,13 +57,13 @@
 
           document.getElementById("grupos").innerHTML += desc + ":" + "<br>";
 
-          var ing = groups[i].getElementsByTagName("ingredientes");
-          
-          // read ingredients
-          for (var j = 0; j < ing.length; j++) {
+          var ings = groups[i].getElementsByTagName("ingredientes");
 
-            var item = ing[j].getElementsByTagName("item")[0].childNodes[0].nodeValue;
-            var measure = ing[j].getElementsByTagName("medida")[0];
+          // read ingredients
+          for (var j = 0; j < ings.length; j++) {
+            var ing  = ings[j].getElementsByTagName("ingrediente")[0];
+            var item = ing.getElementsByTagName("item")[0].childNodes[0].nodeValue;
+            var measure = ing.getElementsByTagName("medida")[0];
             var quant = measure.getElementsByTagName("quantidade")[0];
             var value = quant.getElementsByTagName("valor")[0].childNodes[0].nodeValue;
             var unity = quant.getElementsByTagName("unidade")[0].childNodes[0].nodeValue;

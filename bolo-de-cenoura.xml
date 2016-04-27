@@ -19,7 +19,7 @@
 					</quantidade>
 				</medida>
 				<item>chocolate em pó</item>
-			</ingrediente>			
+			</ingrediente>
 			<ingrediente>
 				<medida>
 					<quantidade>
@@ -28,7 +28,7 @@
 					</quantidade>
 				</medida>
 				<item>açúcar</item>
-			</ingrediente>			
+			</ingrediente>
 			<ingrediente>
 				<medida>
 					<quantidade>
@@ -37,7 +37,7 @@
 					</quantidade>
 				</medida>
 				<item>manteiga</item>
-			</ingrediente>			
+			</ingrediente>
 			<ingrediente>
 				<medida>
 					<quantidade>
@@ -60,7 +60,7 @@
 	</grupo>
 	<grupo>
 		<descricao>Bolo</descricao>
-		<ingredientes>		
+		<ingredientes>
 			<ingrediente>
 				<medida>
 					<quantidade>
@@ -70,7 +70,7 @@
 				</medida>
 				<item>cenoura</item>
 			</ingrediente>
-			
+
 			<ingrediente>
 				<medida>
 					<quantidade>
@@ -80,7 +80,7 @@
 				</medida>
 				<item>ovo</item>
 			</ingrediente>
-			
+
 			<ingrediente>
 				<medida>
 					<quantidade>
@@ -90,7 +90,7 @@
 				</medida>
 				<item>óleo de canola, milho ou girassol</item>
 			</ingrediente>
-			
+
 			<ingrediente>
 				<medida>
 					<quantidade>
@@ -100,7 +100,7 @@
 				</medida>
 				<item>açúcar</item>
 			</ingrediente>
-			
+
 			<ingrediente>
 				<medida>
 					<quantidade>
@@ -110,7 +110,7 @@
 				</medida>
 				<item>farinha de trigo</item>
 			</ingrediente>
-			
+
 			<ingrediente>
 				<medida>
 					<quantidade>
@@ -120,7 +120,7 @@
 				</medida>
 				<item>fermento</item>
 			</ingrediente>
-			
+
 			<ingrediente>
 				<medida>
 					<quantidade>
@@ -130,7 +130,7 @@
 				</medida>
 				<item>sal</item>
 			</ingrediente>
-			
+
 			<ingrediente>
 				<medida>
 					<quantidade>
