@@ -50,26 +50,34 @@
         document.getElementById('comentario').innerHTML = comment;
         document.getElementsByTagName("img")[0].setAttribute("src", picture);
 
+        var str = "";
         // fill groups data
         for (var i = 0; i < groups.length; i++) {
-          var str = "";
           var desc = groups[i].getElementsByTagName("descricao")[0].childNodes[0].nodeValue;
 
           document.getElementById("grupos").innerHTML += desc + ":" + "<br>";
 
-          var ings = groups[i].getElementsByTagName("ingredientes");
+          var ings = groups[i].getElementsByTagName("ingredientes")[0].getElementsByTagName("ingrediente");
 
           // read ingredients
           for (var j = 0; j < ings.length; j++) {
-            var ing  = ings[j].getElementsByTagName("ingrediente")[0];
-            var item = ing.getElementsByTagName("item")[0].childNodes[0].nodeValue;
-            var measure = ing.getElementsByTagName("medida")[0];
+            var item = ings[j].getElementsByTagName("item")[0].childNodes[0].nodeValue;
+            var measure = ings[j].getElementsByTagName("medida")[0];
             var quant = measure.getElementsByTagName("quantidade")[0];
             var value = quant.getElementsByTagName("valor")[0].childNodes[0].nodeValue;
             var unity = quant.getElementsByTagName("unidade")[0].childNodes[0].nodeValue;
 
             document.getElementById("grupos").innerHTML += value + " " + unity + " de " + item + "<br>";
           }
+          document.getElementById("grupos").innerHTML += '<br>';
+
+          var steps = groups[i].getElementsByTagName("passos")[0].getElementsByTagName("passo");
+
+          for (var k = 0; k < steps.length; k++) {
+            var step = steps[k].childNodes[0].nodeValue;
+            str += step + " ";
+          }
+          document.getElementById("grupos").innerHTML += str + '<br><br>';
         }
     });
 </script>
